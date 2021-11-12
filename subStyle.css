@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16;
+  color: black;
+  height: 100%;
+  background: #424242 url(/Pictures/Background\ color.png) no-repeat fixed
+    center;
+  background-size: cover;
+}
+.logo {
+  width: fit-content;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo img {
+  width: 300px;
+  height: auto;
+}
+
+.icon-back-container {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
+p {
+  font-size: 18px;
+}
+.name {
+  position: absolute;
+  left: 45%;
+  top: 20px;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  z-index: 1;
+}
+.container {
+  background: #fff url(/Pictures/Background\ color\ 2.png);
+  max-width: 900px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+.pokemon-info {
+  margin-top: 50px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.weakness-container {
+  display: inline-block;
+  width: fit-content;
+}
+.weakness-container li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  width: 100px;
+}
+.weakness-container ul {
+  padding: 0;
+}
+.Type {
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  width: 100px;
+}
+.Content {
+  max-width: 900px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
